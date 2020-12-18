@@ -217,19 +217,19 @@ retroshare_plugins:win32:CONFIG *= libretroshare_shared
 
 # Specify RetroShare major version (must be a number) appending the following
 # assignation to qmake command line 'RS_MAJOR_VERSION=0'
-#RS_MAJOR_VERSION=0
+RS_MAJOR_VERSION=0
 
 # Specify RetroShare minor version (must be a number) appending the following
 # assignation to qmake command line 'RS_MINOR_VERSION=6'
-#RS_MINOR_VERSION=6
+RS_MINOR_VERSION=6
 
 # Specify RetroShare mini version (must be a number) appending the following
 # assignation to qmake command line 'RS_MINI_VERSION=4'
-#RS_MINI_VERSION=4
+RS_MINI_VERSION=6
 
 # Specify RetroShare extra version (must be a string) appending the following
 # assignation to qmake command line 'RS_EXTRA_VERSION=""'
-#RS_EXTRA_VERSION=git
+RS_EXTRA_VERSION=-RC2
 
 # Specify threading library to use appending the following assignation to qmake
 # commandline 'RS_THREAD_LIB=pthread' the name of the multi threading library to
